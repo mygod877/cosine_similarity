@@ -3,14 +3,13 @@
 
 ## 環境
 - python3.6.8
-
-## 必須ライブラリ
-- numpy
-- scikit-learn
+- pipenv
 
 ## 使い方
 - cloneしたディレクトリで以下を実行
 ```shell
+$ pipenv install
+$ pipenv shell
 $ python main.py query --datafile=./data/abstract.txt
 ```
 
